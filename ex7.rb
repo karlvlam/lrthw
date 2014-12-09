@@ -1,6 +1,8 @@
 puts "Mary had a little lamb."
-puts "Its fleece was white as #{'snow'}."
+puts "Its fleece was white as #{'snow'}." # 'snow' is a variable itself
 puts "And everywhere that Mary went."
+
+# string * 10 just print 10 times
 puts "." * 10 # what'd that do?
 
 end1 = "C"
@@ -17,5 +19,5 @@ end11 = "e"
 end12 = "r"
 
 # watch that print vs. puts on this line what's it do?
-print end1 + end2 + end3 + end4 + end5 + end6
-puts end7 + end8 + end9 + end10 + end11 + end12
+print end1 + end2 + end3 + end4 + end5 + end6 # print does not output line feed
+puts end7 + end8 + end9 + end10 + end11 + end12 # puts ends with a line feed
