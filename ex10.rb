@@ -13,3 +13,7 @@ puts tabby_cat
 puts persian_cat
 puts backslash_cat
 puts fat_cat
+
+# try ASCII vertical tab (VT)
+puts "======================="
+puts "a\vb\vc"
